@@ -23,6 +23,7 @@ print(distance)
 
 # Second Half Of Day 1
 
+# Loops through each number of the first column and counts number of occurences in second column multiplied by the number itself, then sums all the list
 similarity_score = sum([num*second_column.count(num) for num in first_column])
 
 print(similarity_score)
